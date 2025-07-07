@@ -1,4 +1,4 @@
-# AI Chat Interface 💬🤖
+# OpenAI Chat Assistant with Multi-Chat Memory | Frontend + GPT-4o 💬🤖
 
 A sleek and responsive AI-powered chat interface built with **HTML**, **CSS**, and **Vanilla JavaScript**. This project allows users to interact with OpenAI's GPT model via a clean, modern, and mobile-friendly UI, supporting multiple chats and formatting-aware responses.
 
@@ -21,7 +21,8 @@ A sleek and responsive AI-powered chat interface built with **HTML**, **CSS**, a
 ├── script.js         # Full chat logic, OpenAI API calls, and history handling
 ├── /screenshots
 │   ├── 1.png         # Main UI screenshot
-│   └── 2.png         # Additional example
+│   └── 2.png
+│   └── record.gif        # Additional example
 ```
 
 ## 🚀 Getting Started
@@ -32,32 +33,36 @@ A sleek and responsive AI-powered chat interface built with **HTML**, **CSS**, a
 
 ```bash
 # Optional if using Git
-git clone https://github.com/your-username/ai-chat-interface
+git clone https://github.com/ahmedgaafer1/gpt-prompt-box.git
 cd ai-chat-interface
 ```
 
-
-
-## 🔐 API Key Configuration  ✅ << ضيفه هنا
+## 🔐 API Key Configuration ✅
 
 ⚠️ **Important:** For security reasons, the `API key` used to access OpenAI's services has **not been included** in this project.
 
 To run the project successfully:
+
 1. Create an API key from your [OpenAI account](https://platform.openai.com/account/api-keys).
 2. Open the `script.js` file.
 3. Replace the placeholder string `const apiKey = "your-api-key-here";` with your actual API key.
-
 
 ## 🧠 Sample Instruction
 
 Try entering prompts like:
 
 ```text
-describe oop 
+describe oop
 
 ```
 
 The AI will respond with exactly the number of lines requested.
+
+## 🎥 Live Demo
+
+Here’s a quick preview of the chat assistant in action:
+
+<img src="/screenshots/record.gif" width="600"/>
 
 ## 📸 Screenshots
 
@@ -82,4 +87,4 @@ Ahmed Gaafer
 
 ---
 
-> Built with ❤️ for frontend mastery and OpenAI magic.
+> Crafted with ❤️ by Ahmed Gaafer — blending frontend finesse with OpenAI power.
