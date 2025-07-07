@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telegram Chat</title>
+    <link rel="shortcut icon" href="telegram.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <h4>Chats</h4>
+          <button id="new-chat-button" class="sidebar-new-chat">+</button>
+        </div>
+        <ul id="chat-list"></ul>
+      </div>
+      <div class="chat-container">
+        <div class="chat-header">
+          <img src="telegram.ico" alt="AI" class="ai-avatar" />
+          <div class="chat-header-info">
+            <h3>AI</h3>
+            <p>Online</p>
+          </div>
+        </div>
+        <div class="chat-messages"></div>
+        <div class="chat-input">
+          <input
+            type="text"
+            id="message-input"
+            placeholder="Type a message..."
+          />
+          <button id="send-button">Send</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
